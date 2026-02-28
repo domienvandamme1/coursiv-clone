@@ -1,0 +1,349 @@
+{
+  "courses": [
+    {
+      "id": "chatgpt",
+      "title": "ChatGPT",
+      "description": "Master the world's most popular AI assistant",
+      "icon": "🤖",
+      "order": 1,
+      "levels": [
+        {
+          "id": "chatgpt-level-1",
+          "title": "Level 1",
+          "subtitle": "Basics of ChatGPT",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "chatgpt-1-1",
+              "title": "ChatGPT as an LLM",
+              "subtitle": "What is ChatGPT and How Does It Work?",
+              "order": 1,
+              "contentType": "read",
+              "content": "Hey there, I'm Alex! Today, we're diving into the world of ChatGPT, an advanced large language model (LLM).\n\nChatGPT is an AI tool created by OpenAI that can understand and generate human-like text. Think of it as a super-smart writing assistant that can help you with almost anything — from drafting emails to brainstorming ideas.\n\n**How does it work?**\n\nChatGPT was trained on millions of texts from the internet, books, and articles. It learned patterns in language, which allows it to predict what words should come next in a sentence. When you type a message (called a \"prompt\"), ChatGPT reads it, understands the context, and generates a helpful response.\n\n**Key things to know:**\n\n• ChatGPT doesn't actually \"think\" — it predicts the most likely next words\n• The better your prompt, the better the response\n• It can make mistakes, so always double-check important information\n• It works best when you give it clear, specific instructions\n\nReady to try it out? Let's move to your first exercise!",
+              "exercises": [
+                {
+                  "id": "exercise-chatgpt-1-1",
+                  "type": "fill_in_blank",
+                  "scenario": "Just finished an important meeting and need to write a follow-up letter. How would you ask AI for help?",
+                  "promptTemplate": "Can you help me write an email to a [___] about a recent meeting? Include product features.",
+                  "blankIndex": 0,
+                  "correctAnswer": "client",
+                  "wrongAnswers": ["a recent meeting"],
+                  "aiResponse": "Subject: Follow-Up from Our Meeting\n\nDear [Client's Name],\n\nThank you for taking the time to meet with me on [date]. I enjoyed discussing how [Product Name] can help your team.\n\nAs discussed, here are the key features:\n• Automated workflow management\n• Real-time analytics dashboard\n• Team collaboration tools\n• 24/7 customer support\n\nI'd love to schedule a follow-up to address any questions.\n\nBest regards,\n[Your Name]",
+                  "prompt": {
+                    "name": "Email",
+                    "template": "Write an email to [recipient] to [purpose]. Include [details].",
+                    "aiTool": "chatgpt",
+                    "tags": ["WORK ENV", "EMAIL"]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "chatgpt-1-2",
+              "title": "Feed ChatGPT with Data",
+              "subtitle": "How to Provide Context for Better Responses",
+              "order": 2,
+              "contentType": "read",
+              "content": "Now that you know what ChatGPT is, let's learn how to make it work even better for you!\n\nThe secret to getting great responses from ChatGPT is providing the right context. Think of it like giving instructions to a new employee — the more details you provide, the better the result.\n\n**Tips for feeding data to ChatGPT:**\n\n1. **Be specific**: Instead of \"Write me an email,\" say \"Write a professional email to my boss requesting a day off next Friday.\"\n\n2. **Provide examples**: Show ChatGPT what you want by including an example of the style or format you prefer.\n\n3. **Set the role**: Tell ChatGPT who it should be. \"Act as a marketing expert\" or \"You are a friendly teacher.\"\n\n4. **Include constraints**: Mention word limits, tone, audience, or any specific requirements.\n\n5. **Give context**: Share background information that helps ChatGPT understand your situation.\n\nLet's practice this with an exercise!",
+              "exercises": [
+                {
+                  "id": "exercise-chatgpt-1-2",
+                  "type": "fill_in_blank",
+                  "scenario": "You want to create a social media post for your small bakery's new cupcake flavor.",
+                  "promptTemplate": "Act as a [___] and write an Instagram caption for our new red velvet cupcakes. Make it fun and include 3 relevant hashtags.",
+                  "blankIndex": 0,
+                  "correctAnswer": "social media manager",
+                  "wrongAnswers": ["chef"],
+                  "aiResponse": "🧁✨ Say hello to your new obsession! Our Red Velvet Cupcakes are HERE and they're absolutely dreamy.\n\nRich, velvety, topped with our signature cream cheese frosting... one bite and you'll be hooked! 😍\n\nAvailable now — come grab yours before they're gone!\n\n#RedVelvetLove #CupcakeHeaven #BakeryLife",
+                  "prompt": {
+                    "name": "Social Media Post",
+                    "template": "Act as a [role] and write an [platform] caption for [product/topic]. Make it [tone] and include [requirements].",
+                    "aiTool": "chatgpt",
+                    "tags": ["MARKETING", "SOCIAL MEDIA"]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "chatgpt-1-3",
+              "title": "ChatGPT for SMM",
+              "subtitle": "Social Media Marketing with AI",
+              "order": 3,
+              "contentType": "read",
+              "content": "Social Media Marketing (SMM) is one of the most popular uses for ChatGPT. Whether you're a small business owner or a marketing professional, AI can supercharge your social media game.\n\n**What ChatGPT can do for your social media:**\n\n• Write engaging captions for any platform\n• Generate content calendars and posting schedules\n• Create hashtag strategies\n• Draft responses to comments and messages\n• Brainstorm content ideas\n• Write ad copy\n\n**Pro tip:** When asking ChatGPT for social media content, always specify:\n- The platform (Instagram, Twitter, LinkedIn, etc.)\n- Your audience (age, interests, profession)\n- The tone (professional, casual, funny, inspirational)\n- Any calls-to-action you want to include\n\nLet's practice creating social media content!",
+              "exercises": [
+                {
+                  "id": "exercise-chatgpt-1-3",
+                  "type": "fill_in_blank",
+                  "scenario": "You need to create a week's worth of social media content for a fitness brand.",
+                  "promptTemplate": "Create a 7-day [___] for a fitness brand's Instagram account. Include post ideas, captions, and hashtags for each day.",
+                  "blankIndex": 0,
+                  "correctAnswer": "content calendar",
+                  "wrongAnswers": ["workout plan"],
+                  "aiResponse": "📅 7-Day Fitness Instagram Content Calendar:\n\nMonday: Motivation Monday\n\"New week, new goals! 💪 What's your fitness goal this week?\"\n#MotivationMonday #FitnessGoals\n\nTuesday: Tutorial\n\"Quick 5-min ab workout you can do anywhere! 🔥\"\n#WorkoutTuesday #AbWorkout\n\nWednesday: Wellness\n\"Hydration check! 💧 How many glasses today?\"\n#WellnessWednesday #Hydration\n\n...",
+                  "prompt": {
+                    "name": "Content Calendar",
+                    "template": "Create a [duration] content calendar for [brand/business] on [platform]. Include [content types] for each day.",
+                    "aiTool": "chatgpt",
+                    "tags": ["MARKETING", "PLANNING"]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "chatgpt-1-4",
+              "title": "Travel Planning",
+              "subtitle": "Plan Your Perfect Trip with AI",
+              "order": 4,
+              "contentType": "read",
+              "content": "Did you know ChatGPT can be your personal travel planner? It can help you create detailed itineraries, find hidden gems, and even help you budget your trip.\n\n**How to use ChatGPT for travel:**\n\n• Create day-by-day itineraries\n• Get restaurant and hotel recommendations\n• Learn about local customs and etiquette\n• Generate packing lists\n• Translate common phrases\n• Find budget-friendly alternatives\n\n**The key to great travel prompts:**\nTell ChatGPT your destination, travel dates, budget, interests, and any special requirements (dietary needs, accessibility, traveling with kids, etc.).\n\nLet's plan a trip together!",
+              "exercises": [
+                {
+                  "id": "exercise-chatgpt-1-4",
+                  "type": "fill_in_blank",
+                  "scenario": "You're planning a 3-day trip to Paris and want a personalized itinerary.",
+                  "promptTemplate": "Create a 3-day [___] for Paris, France for a couple. Include restaurants, attractions, and estimated costs. Budget: $200/day.",
+                  "blankIndex": 0,
+                  "correctAnswer": "travel itinerary",
+                  "wrongAnswers": ["restaurant guide"],
+                  "aiResponse": "🗼 3-Day Paris Itinerary for Two\n\nDay 1: Classic Paris\n• Morning: Eiffel Tower (€26/person)\n• Lunch: Le Café de l'Homme (€30)\n• Afternoon: Seine River Cruise (€15/person)\n• Dinner: Le Petit Cler (€40)\nDaily total: ~€127\n\nDay 2: Art & Culture\n• Morning: Louvre Museum (€17/person)\n• Lunch: Café Marly (€35)\n...",
+                  "prompt": {
+                    "name": "Travel Itinerary",
+                    "template": "Create a [duration] travel itinerary for [destination] for [travelers]. Include [requirements]. Budget: [amount].",
+                    "aiTool": "chatgpt",
+                    "tags": ["TRAVEL", "PLANNING"]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "chatgpt-1-5",
+              "title": "Event Planning",
+              "subtitle": "Organize Events Like a Pro with AI",
+              "order": 5,
+              "contentType": "read",
+              "content": "Planning an event can be stressful, but ChatGPT can handle the heavy lifting! From birthday parties to corporate events, AI can help you organize every detail.\n\n**ChatGPT can help you with:**\n\n• Creating event timelines and checklists\n• Writing invitation copy\n• Planning menus and catering needs\n• Generating decoration ideas\n• Creating seating arrangements\n• Writing speeches and toasts\n• Managing budgets\n\n**Tips for event planning prompts:**\n- Specify the type of event\n- Include the number of guests\n- Mention your budget\n- Describe the vibe/theme you want\n- Note any dietary restrictions or special needs\n\nLet's plan an event!",
+              "exercises": [
+                {
+                  "id": "exercise-chatgpt-1-5",
+                  "type": "fill_in_blank",
+                  "scenario": "You need to plan a surprise birthday party for your best friend.",
+                  "promptTemplate": "Help me create a detailed [___] for a surprise 30th birthday party for 25 guests. Budget: $1,000. Theme: tropical.",
+                  "blankIndex": 0,
+                  "correctAnswer": "event plan",
+                  "wrongAnswers": ["guest list"],
+                  "aiResponse": "🎉🌴 Surprise 30th Birthday — Tropical Party Plan\n\nBudget Breakdown ($1,000):\n• Venue/Decorations: $250\n• Food & Drinks: $400\n• Entertainment: $150\n• Cake: $100\n• Miscellaneous: $100\n\nTimeline:\n5:00 PM — Setup begins\n6:30 PM — Guests arrive\n7:00 PM — SURPRISE!\n...",
+                  "prompt": {
+                    "name": "Event Plan",
+                    "template": "Create a detailed [type] for a [event description] for [guest count] guests. Budget: [amount]. Theme: [theme].",
+                    "aiTool": "chatgpt",
+                    "tags": ["PLANNING", "EVENTS"]
+                  }
+                }
+              ]
+            },
+            {
+              "id": "chatgpt-1-6",
+              "title": "Prompt Engineering",
+              "subtitle": "Master the Art of AI Prompting",
+              "order": 6,
+              "contentType": "read",
+              "content": "Congratulations on making it this far! Now let's learn the ultimate skill — Prompt Engineering. This is the art of crafting the perfect instructions for AI.\n\n**The CRISPE Framework:**\n\n• **C**apacity: What role should the AI play?\n• **R**equest: What do you want it to do?\n• **I**nstructions: Any specific guidelines?\n• **S**tyle: What tone or format?\n• **P**ersonalization: Who is the audience?\n• **E**xtras: Any additional requirements?\n\n**Example of a great prompt:**\n\"You are an expert copywriter (Capacity). Write a product description (Request) that is under 100 words (Instructions) in a persuasive, exciting tone (Style) for tech-savvy millennials (Personalization). Include a call-to-action and 3 bullet points of key features (Extras).\"\n\nThe better your prompts, the better AI works for you!",
+              "exercises": [
+                {
+                  "id": "exercise-chatgpt-1-6",
+                  "type": "fill_in_blank",
+                  "scenario": "You want to use the CRISPE framework to write a product description for a new smartphone.",
+                  "promptTemplate": "You are an expert [___]. Write a product description for the new XPhone Pro that is under 150 words, in an exciting tone, for tech enthusiasts. Include key specs and a call-to-action.",
+                  "blankIndex": 0,
+                  "correctAnswer": "copywriter",
+                  "wrongAnswers": ["developer"],
+                  "aiResponse": "🚀 Meet the XPhone Pro — The Future in Your Hands\n\nPrepare to be amazed. The XPhone Pro isn't just a smartphone — it's your new superpower.\n\n✨ Key Specs:\n• 6.7\" AMOLED Display (120Hz)\n• 200MP Triple Camera System\n• 5000mAh Battery (all-day power)\n• AI-Powered Performance Chip\n\nWhether you're capturing stunning photos, gaming at max settings, or multitasking like a pro, the XPhone Pro delivers unmatched performance.\n\n🔥 Pre-order now and get 20% off! Limited time only.\n\nYour upgrade awaits → Shop Now",
+                  "prompt": {
+                    "name": "Product Description",
+                    "template": "You are an expert [role]. Write a product description for [product] that is under [word count] words, in [tone] tone, for [audience]. Include [requirements].",
+                    "aiTool": "chatgpt",
+                    "tags": ["COPYWRITING", "MARKETING"]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "midjourney",
+      "title": "Midjourney",
+      "description": "Create stunning AI-generated artwork",
+      "icon": "🎨",
+      "order": 2,
+      "levels": [
+        {
+          "id": "midjourney-level-1",
+          "title": "Level 1",
+          "subtitle": "Getting Started with Midjourney",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "midjourney-1-1",
+              "title": "What is Midjourney?",
+              "subtitle": "Introduction to AI Image Generation",
+              "order": 1,
+              "contentType": "read",
+              "content": "Welcome to the world of AI art! Midjourney is one of the most powerful AI image generators available today.\n\n**What can Midjourney do?**\n\nMidjourney turns your text descriptions into stunning images. Just type what you want to see, and the AI creates it for you — no artistic skills needed!\n\n**Popular uses:**\n• Social media graphics\n• Marketing materials\n• Concept art\n• Logo inspiration\n• Book covers\n• Personal art projects\n\n**How it works:**\nYou write a \"prompt\" (a text description), and Midjourney generates 4 image variations based on your description. You can then upscale your favorites or generate more variations.",
+              "exercises": [
+                {
+                  "id": "exercise-midjourney-1-1",
+                  "type": "fill_in_blank",
+                  "scenario": "You want to create a professional-looking logo concept for a coffee shop.",
+                  "promptTemplate": "A minimalist [___] for a coffee shop called 'Bean & Brew', warm colors, clean design, vector style --v 6",
+                  "blankIndex": 0,
+                  "correctAnswer": "logo design",
+                  "wrongAnswers": ["photograph"],
+                  "aiResponse": "[Midjourney would generate 4 stunning logo variations featuring warm-toned, minimalist designs for 'Bean & Brew' with coffee-related imagery]",
+                  "prompt": {
+                    "name": "Logo Concept",
+                    "template": "A minimalist [style] for [business] called '[name]', [color scheme], [design style] --v 6",
+                    "aiTool": "midjourney",
+                    "tags": ["DESIGN", "BRANDING"]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "canva-ai",
+      "title": "Canva AI",
+      "description": "Design beautiful graphics with AI assistance",
+      "icon": "✨",
+      "order": 3,
+      "levels": [
+        {
+          "id": "canva-level-1",
+          "title": "Level 1",
+          "subtitle": "Canva AI Basics",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "canva-1-1",
+              "title": "Magic Design",
+              "subtitle": "Let AI Create Designs for You",
+              "order": 1,
+              "contentType": "read",
+              "content": "Canva AI has revolutionized graphic design! With its Magic Design features, anyone can create professional-looking graphics in seconds.\n\n**Key Canva AI features:**\n\n• **Magic Design**: Describe what you want, and Canva creates it\n• **Magic Write**: AI-powered text generation within your designs\n• **Background Remover**: One-click background removal\n• **Magic Eraser**: Remove unwanted objects from photos\n• **Text to Image**: Generate custom images from descriptions\n\nCanva AI is perfect for beginners because it combines AI power with easy drag-and-drop editing.",
+              "exercises": [
+                {
+                  "id": "exercise-canva-1-1",
+                  "type": "fill_in_blank",
+                  "scenario": "You need to create a presentation for a team meeting using Canva AI.",
+                  "promptTemplate": "Create a professional [___] about Q4 sales results with charts, icons, and a modern blue theme. 10 slides.",
+                  "blankIndex": 0,
+                  "correctAnswer": "presentation",
+                  "wrongAnswers": ["poster"],
+                  "aiResponse": "[Canva would generate a 10-slide presentation with a modern blue theme, including title slide, executive summary, charts for Q4 data, and conclusion]",
+                  "prompt": {
+                    "name": "Presentation",
+                    "template": "Create a professional [type] about [topic] with [elements]. [slide count] slides.",
+                    "aiTool": "canva",
+                    "tags": ["DESIGN", "WORK ENV"]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "claude",
+      "title": "Claude",
+      "description": "Thoughtful AI for analysis and writing",
+      "icon": "🧠",
+      "order": 4,
+      "levels": [
+        {
+          "id": "claude-level-1",
+          "title": "Level 1",
+          "subtitle": "Getting Started with Claude",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "claude-1-1",
+              "title": "Meet Claude",
+              "subtitle": "Your Thoughtful AI Assistant",
+              "order": 1,
+              "contentType": "read",
+              "content": "Claude, made by Anthropic, is known for being especially good at nuanced, thoughtful responses. It excels at analysis, research, and creative writing.\n\n**What makes Claude special:**\n\n• Excellent at following complex instructions\n• Great at analyzing long documents\n• Strong at creative and analytical writing\n• More cautious and nuanced responses\n• Can handle very long conversations\n\n**Best uses for Claude:**\n• Research and analysis\n• Long-form writing\n• Code review and debugging\n• Document summarization\n• Brainstorming and ideation",
+              "exercises": [
+                {
+                  "id": "exercise-claude-1-1",
+                  "type": "fill_in_blank",
+                  "scenario": "You have a 20-page report and need a quick summary for your boss.",
+                  "promptTemplate": "Please [___] this 20-page quarterly report into a 1-page executive brief. Focus on key metrics, achievements, and action items.",
+                  "blankIndex": 0,
+                  "correctAnswer": "summarize",
+                  "wrongAnswers": ["translate"],
+                  "aiResponse": "Executive Summary — Q4 Report\n\nKey Metrics:\n• Revenue: $2.4M (+15% YoY)\n• Customer Retention: 94%\n• New Accounts: 127\n\nTop Achievements:\n1. Launched mobile app (50K downloads)\n2. Expanded to 3 new markets\n3. Reduced support tickets by 30%\n\nAction Items:\n• Scale marketing budget for Q1\n• Hire 5 additional engineers\n• Launch enterprise tier",
+                  "prompt": {
+                    "name": "Document Summary",
+                    "template": "Please summarize this [document type] into a [output format]. Focus on [key areas].",
+                    "aiTool": "claude",
+                    "tags": ["ANALYSIS", "WORK ENV"]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gemini",
+      "title": "Gemini",
+      "description": "Google's multimodal AI powerhouse",
+      "icon": "💎",
+      "order": 5,
+      "levels": [
+        {
+          "id": "gemini-level-1",
+          "title": "Level 1",
+          "subtitle": "Getting Started with Gemini",
+          "order": 1,
+          "lessons": [
+            {
+              "id": "gemini-1-1",
+              "title": "What is Gemini?",
+              "subtitle": "Google's Most Capable AI",
+              "order": 1,
+              "contentType": "read",
+              "content": "Gemini is Google's most advanced AI model. What makes it unique is that it's \"multimodal\" — it can understand text, images, audio, video, and code all at once!\n\n**Gemini's superpowers:**\n\n• Analyze images and photos\n• Understand and generate code\n• Process audio and video\n• Search the web in real-time\n• Integrate with Google services (Gmail, Docs, etc.)\n\n**Best uses for Gemini:**\n• Photo analysis and description\n• Research with real-time web access\n• Integration with Google Workspace\n• Code generation and debugging\n• Multi-step reasoning tasks",
+              "exercises": [
+                {
+                  "id": "exercise-gemini-1-1",
+                  "type": "fill_in_blank",
+                  "scenario": "You took a photo of a plant and want to identify it using Gemini.",
+                  "promptTemplate": "[___] this plant in the image. Tell me its name, care instructions, and whether it's safe for pets.",
+                  "blankIndex": 0,
+                  "correctAnswer": "Identify",
+                  "wrongAnswers": ["Draw"],
+                  "aiResponse": "🌿 Plant Identification:\n\nName: Monstera Deliciosa (Swiss Cheese Plant)\n\nCare Instructions:\n• Light: Bright indirect light\n• Water: Every 1-2 weeks\n• Humidity: 60%+ preferred\n• Soil: Well-draining potting mix\n\n⚠️ Pet Safety: TOXIC to cats and dogs if ingested. Keep out of reach of pets.",
+                  "prompt": {
+                    "name": "Image Analysis",
+                    "template": "[Action] this [subject] in the image. Tell me [information needed].",
+                    "aiTool": "gemini",
+                    "tags": ["ANALYSIS", "VISUAL"]
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

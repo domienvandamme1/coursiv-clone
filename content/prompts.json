@@ -1,0 +1,84 @@
+{
+  "prompts": [
+    {
+      "id": "prompt-email",
+      "name": "Professional Email",
+      "template": "Write an email to [recipient] to [purpose]. Include [details].",
+      "aiTool": "chatgpt",
+      "tags": ["WORK ENV", "EMAIL"],
+      "category": "Business"
+    },
+    {
+      "id": "prompt-social-media",
+      "name": "Social Media Post",
+      "template": "Act as a [role] and write an [platform] caption for [product/topic]. Make it [tone] and include [requirements].",
+      "aiTool": "chatgpt",
+      "tags": ["MARKETING", "SOCIAL MEDIA"],
+      "category": "Marketing"
+    },
+    {
+      "id": "prompt-content-calendar",
+      "name": "Content Calendar",
+      "template": "Create a [duration] content calendar for [brand/business] on [platform]. Include [content types] for each day.",
+      "aiTool": "chatgpt",
+      "tags": ["MARKETING", "PLANNING"],
+      "category": "Marketing"
+    },
+    {
+      "id": "prompt-travel",
+      "name": "Travel Itinerary",
+      "template": "Create a [duration] travel itinerary for [destination] for [travelers]. Include [requirements]. Budget: [amount].",
+      "aiTool": "chatgpt",
+      "tags": ["TRAVEL", "PLANNING"],
+      "category": "Lifestyle"
+    },
+    {
+      "id": "prompt-event",
+      "name": "Event Planner",
+      "template": "Create a detailed [type] for a [event description] for [guest count] guests. Budget: [amount]. Theme: [theme].",
+      "aiTool": "chatgpt",
+      "tags": ["PLANNING", "EVENTS"],
+      "category": "Lifestyle"
+    },
+    {
+      "id": "prompt-product",
+      "name": "Product Description",
+      "template": "You are an expert [role]. Write a product description for [product] that is under [word count] words, in [tone] tone, for [audience]. Include [requirements].",
+      "aiTool": "chatgpt",
+      "tags": ["COPYWRITING", "MARKETING"],
+      "category": "Business"
+    },
+    {
+      "id": "prompt-logo",
+      "name": "Logo Concept",
+      "template": "A minimalist [style] for [business] called '[name]', [color scheme], [design style] --v 6",
+      "aiTool": "midjourney",
+      "tags": ["DESIGN", "BRANDING"],
+      "category": "Design"
+    },
+    {
+      "id": "prompt-presentation",
+      "name": "Presentation",
+      "template": "Create a professional [type] about [topic] with [elements]. [slide count] slides.",
+      "aiTool": "canva",
+      "tags": ["DESIGN", "WORK ENV"],
+      "category": "Business"
+    },
+    {
+      "id": "prompt-summary",
+      "name": "Document Summary",
+      "template": "Please summarize this [document type] into a [output format]. Focus on [key areas].",
+      "aiTool": "claude",
+      "tags": ["ANALYSIS", "WORK ENV"],
+      "category": "Business"
+    },
+    {
+      "id": "prompt-image-analysis",
+      "name": "Image Analysis",
+      "template": "[Action] this [subject] in the image. Tell me [information needed].",
+      "aiTool": "gemini",
+      "tags": ["ANALYSIS", "VISUAL"],
+      "category": "Creative"
+    }
+  ]
+}
